@@ -1,1 +1,0 @@
-import{ft as s,fu as c,r as t}from"./strapi-CZ_Tzx2x.js";function f(o){const e=s().getMonitor(),[a,r]=c(e,o);return t.useEffect(()=>e.subscribeToOffsetChange(r)),t.useEffect(()=>e.subscribeToStateChange(r)),a}export{f as u};
